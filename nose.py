@@ -17,3 +17,9 @@ print(columnas_fichero())
 print(f.dtypes)
 
 #Para ver los valores nulos que hay en las columnas 
+print(f.info())
+
+#Columna Operating Airline IATA Code
+#Creo una nueva tabla en la que sólo van a estar las filas con valores nulos en esta columna.
+
+#nueva_f = f['Operating Airline IATA Code'].index
